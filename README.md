@@ -1,6 +1,6 @@
 # @zenrows/n8n-nodes-zenrows
 
-An [n8n](https://n8n.io) community node for [Zenrows](https://www.zenrows.com), a web scraping API that gets past anti-bot systems, renders JavaScript and rotates proxies for you.
+An [n8n](https://n8n.io) community node for [Zenrows](https://www.zenrows.com?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows), a web scraping API that gets past anti-bot systems, renders JavaScript and rotates proxies for you.
 
 Without it, using Zenrows in n8n means an HTTP Request node and a hand-built URL. With it, you pick an operation, paste a URL, and your API key lives in n8n's credential store instead of in the workflow.
 
@@ -60,7 +60,7 @@ A job is finished when `latest_run.stats.completed` reaches `latest_run.stats.to
 
 ## Credentials
 
-You need a Zenrows API key. [Sign up for free](https://app.zenrows.com/register?p=free), then copy the key from the Integrate panel on any playground page at [app.zenrows.com](https://app.zenrows.com).
+You need a Zenrows API key. [Sign up for free](https://app.zenrows.com/register?p=free&utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows), then copy the key from the Integrate panel on any playground page at [app.zenrows.com](https://app.zenrows.com?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows).
 
 In n8n, create a **Zenrows API** credential and paste the key in. The node sends it as an `X-API-Key` header, so it never travels in a URL or shows up in an execution's query string.
 
@@ -92,17 +92,17 @@ Zenrows bills in credits, and the cost depends on what the request needed:
 | Premium proxies | 10 |
 | Both, on a protected site | 25 |
 
-The free plan comes with 5,000 credits a month, always. See the [pricing page](https://docs.zenrows.com/first-steps/pricing) for the full table.
+The free plan comes with 5,000 credits a month, always. See the [pricing page](https://docs.zenrows.com/first-steps/pricing?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows) for the full table.
 
 ## Resources
 
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
-* [Zenrows documentation](https://docs.zenrows.com)
-* [Fetch API reference](https://docs.zenrows.com/fetch/api-reference)
-* [Extract](https://docs.zenrows.com/extract/setup)
-* [Crawl endpoints](https://docs.zenrows.com/crawl/endpoints)
-* [Batch REST API](https://docs.zenrows.com/batch/developer-guide-restapi)
-* [API error codes](https://docs.zenrows.com/api-error-codes)
+* [Zenrows documentation](https://docs.zenrows.com?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows)
+* [Fetch API reference](https://docs.zenrows.com/fetch/api-reference?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows)
+* [Extract](https://docs.zenrows.com/extract/setup?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows)
+* [Crawl endpoints](https://docs.zenrows.com/crawl/endpoints?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows)
+* [Batch REST API](https://docs.zenrows.com/batch/developer-guide-restapi?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows)
+* [API error codes](https://docs.zenrows.com/api-error-codes?utm_source=github&utm_medium=readme&utm_campaign=n8n-nodes-zenrows)
 
 ## Version history
 
