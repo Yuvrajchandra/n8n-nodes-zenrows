@@ -8,11 +8,11 @@ Without it, using Zenrows in n8n means an HTTP Request node and a hand-built URL
 
 ## Installation
 
-The Zenrows node is [verified by n8n](https://n8n.io/integrations/zenrows/), so you can add it straight from the editor:
+This is the official Zenrows node, natively available in n8n on [n8n Cloud](https://n8n.io/) and self-hosted instances. Add it straight from the editor ([listing on n8n](https://n8n.io/integrations/zenrows/)):
 
 1. Open a workflow and click **+** to open the Nodes panel.
-2. Search for **Zenrows** and pick the node with the verified badge.
-3. Click **Install**. On a self-hosted instance or n8n Cloud, an instance owner installs it once and everyone on the instance can use it.
+2. Search for **Zenrows** and pick the Zenrows node under **More from the community**.
+3. Click **Install**. On n8n Cloud or a self-hosted instance, an instance owner or admin installs it once and everyone on the instance can use it.
 
 You can also follow the [community nodes installation guide](https://docs.n8n.io/integrations/community-nodes/installation/) and enter `@zenrows/n8n-nodes-zenrows` as the package name, or install it from the command line on self-hosted n8n:
 
@@ -118,7 +118,7 @@ The free plan comes with 5,000 credits a month, always. See the [pricing page](h
 
 | Version | Changes |
 |---|---|
-| 0.1.2 | Limit now reaches the API on Get Many and Get Results; Extract Data's Fields and Batch Job's Status move under Options and Filters; JS Rendering, Premium Proxy and Screenshot appear only in Manual stealth mode. Verified by n8n. |
+| 0.1.2 | Limit now reaches the API on Get Many and Get Results; Extract Data's Fields and Batch Job's Status move under Options and Filters; JS Rendering, Premium Proxy and Screenshot appear only in Manual stealth mode. Available from the n8n Nodes panel on n8n Cloud and self-hosted. |
 | 0.1.1 | Published from GitHub Actions with npm provenance. |
 | 0.1.0 | First release. Page (Scrape, Extract Data), Crawl (Create, Get, Get Many, Get Results, Get Page Content, Stop) and Batch Job (Create, Get, Get Many, Get Results, Delete). |
 
