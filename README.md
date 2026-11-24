@@ -4,6 +4,8 @@ An [n8n](https://n8n.io) community node for [Zenrows](https://www.zenrows.com?ut
 
 Without it, using Zenrows in n8n means an HTTP Request node and a hand-built URL. With it, you pick an operation, paste a URL, and your API key lives in n8n's credential store instead of in the workflow.
 
+Watch it in action: [the Zenrows node in n8n](https://vimeo.com/1249796752).
+
 [Installation](#installation) · [Operations](#operations) · [Credentials](#credentials) · [Compatibility](#compatibility) · [Usage](#usage) · [Resources](#resources)
 
 ## Installation
